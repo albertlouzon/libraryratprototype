@@ -1,0 +1,53 @@
+{
+  "name": "semainier",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -p 8080",
+    "migrate": "node scripts/migrate-db.js"
+  },
+  "engines": {
+    "node": "14"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bad-words": "^3.0.4",
+    "boostrap": "^2.0.0",
+    "bootstrap": "^5.0.0-beta3",
+    "clsx": "^1.1.1",
+    "cors": "^2.8.5",
+    "dgram": "^1.0.1",
+    "dns": "^0.2.2",
+    "dotenv": "^8.2.0",
+    "email-existence": "^0.1.6",
+    "email-validator": "^2.0.4",
+    "express": "^4.17.1",
+    "filepath": "^1.1.0",
+    "fs": "0.0.1-security",
+    "html2canvas": "^1.0.0-rc.7",
+    "jspdf": "^2.3.1",
+    "net": "^1.0.2",
+    "next": "10.0.6",
+    "nodemailer": "^6.5.0",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "papaparse": "^5.3.0",
+    "pdf-puppeteer": "^1.1.10",
+    "puppeteer": "^8.0.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-loading-skeleton": "^2.2.0",
+    "serverless-mysql": "^1.5.4",
+    "swig-email-templates": "^6.0.0",
+    "swr": "^0.5.4",
+    "tls": "0.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.28",
+    "@types/react": "^17.0.2",
+    "multer": "^1.4.2",
+    "next-connect": "^0.10.0",
+    "typescript": "^4.1.5"
+  }
+}

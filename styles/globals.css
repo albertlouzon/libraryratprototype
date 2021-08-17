@@ -1,0 +1,143 @@
+html,
+body {
+  font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica',
+  'Arial', sans-serif;
+  margin: 0 auto;
+}
+.card-icon-extra {
+  height: 75px;
+  width: auto !important;
+  align-self: center;
+}
+.card-icon {
+  height: 65px;
+  width: auto !important;
+  align-self: center;
+}
+
+table td, table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table tr:nth-child(even){background-color: #f2f2f2;}
+
+table tr:hover {background-color: #ddd;}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+}
+.little {
+  font-size: 12px;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+ul {
+  margin-bottom: 0!important;
+}
+* {
+  box-sizing: border-box;
+}
+.customers-btn-cont {
+  background-color: darkblue;
+  display: flex;
+  flex-wrap: wrap;
+}
+.day-time {
+  margin-left: 14px !important;
+}
+.lunch-cont {
+  display: inherit;
+}
+
+border-meal {
+  border: 2px solid #ebf8f4;
+  padding: 20px;
+}
+
+.meal-li {
+  color: #7ad1b9;
+}
+
+.card-cont {
+  height: inherit;
+  box-shadow: 5px 6px 8px 1px rgba(0, 0, 0, 0.48);
+  display: flex;
+  flex-direction: column;
+}
+
+
+.day-card, .card-cont {
+  background-color: #fef8f1;
+
+}
+.extra-day-card {
+  min-height: 400px;
+}
+.customer-btn {
+  margin: 10px;
+  padding: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.header {
+  padding: 30px;
+  color: darkred;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.primcolor {
+  color: #074957;
+}
+
+#semainier {
+  background-color: white;
+}
+
+.semainier-cont {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+body, html {
+  color: #074957
+}
+
+.bg-sec {
+  background-color: #ebf8f4 !important;
+}
+
+.header-intro {
+  background-color: #ebf8f4;
+  border-radius: 10px;
+}
+
+em {
+  color: #7AD1B9;
+}
+
+.meal-name {
+  color: #074957;
+
+}
+
+.meal-card-header-sec {
+  text-align: center;
+  color: white;
+  background-color: #7AD1B9;
+}
+
+.meal-card-header {
+  text-align: center;
+  color: white;
+  background-color: #ffe0b2;
+}
